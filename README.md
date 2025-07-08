@@ -1,6 +1,14 @@
 # aplikasi_diagnosa_penyakitkambing
 
-A new Flutter project.
+**Versi 1.0.0-Release**
+
+Aplikasi Dipekam dikembangkan untuk memenuhi kebutuhan diagnosa penyakit kambing pada peternakan Cipta Hadi Karya Farm.
+Serta aplikasi dikembangkan sebagai proyek tugas akhir pada Politeknik Negeri Madiun.
+
+Developer : Reisha Narindra Whibangga.
+
+**Dilarang untuk copy paste syntax maupun menduplikasi project!**
+**Full Changelog**: https://github.com/Reisha23/Dipekam/commits/v1.0.0
 
 ## Getting Started
 
