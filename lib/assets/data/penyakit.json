@@ -1,0 +1,78 @@
+[
+    {
+      "id": "P01",
+      "nama": "PMK",
+      "penanganan": "Isolasi kambing. sanitasi kebersihan kandang, lokasi, peralatan, dan tempat pakan dan minum.  Pemberian antibiotik dan vitamin, bertujuan untuk meningkatkan kekebalan dan menjaga kesehatan ternak agar ternak lain tidak mudah terserang penyakit PMK. vaksinasi, dan pemusnahan bangkai kambing yang terjangkit."
+    },
+    {
+      "id": "P02",
+      "nama": "Penyakit Orf",
+      "penanganan": "Suntikan antibiotik. buat ramuan berbahan biji pinang, kapur sirih, dan kunyit dengan cara oleskan pada bagian yang terjangkit tanpa mengelupas keropeng."
+    },
+    {
+      "id": "P03",
+      "nama": "Antrhax",
+      "penanganan": "Anthrax belum ditemukan obatnya. Pengobatan dini sebelum muncul gejala secara keseluruhan biasanya menggunakan Tetracyclin atau Penicillin dosis tinggi selama 5 hari. Vaksinasi ternak di daerah endemik direkomendasikan untuk dilakukan secara teratur "
+    },
+    {
+      "id": "P04",
+      "nama": "Radang Ambing (Masitis)",
+      "penanganan": "pemberian antibiotik intra mammary. menjaga sanitasi pemerah. perah susu hingga habis, injeksi spoit obat ke dalam puting hingga ke bagian atas ambing,  Perah kembali susu setelah 24 jam. Jika susu masih berwarna kemerahan, pemerahan susu dapat diulang 1-2 kali. "
+    },
+    {
+        "id": "P05",
+        "nama": "Diare",
+        "penanganan": "Diare yang disebabkan pakan hijauan, maka pemberian daun kacang-kacangan dan daun muda dihentikan sementara.Penanganan diare secara herbal dilakukan dengan pemberian 1/3 gelas campuran daun jambu biji, garam dapur dan air kelapa, selama tiga hari berturut-turut."
+      },
+    {
+      "id": "P06",
+      "nama": "Enterotoksemia",
+      "penanganan": "Berikan air kelapa untuk menetralisir racun, serta dapat dilakukan infus intravena. Untuk pencegahan, pemberian biji-bijian dalam pakan perlu dibatasi, terutama kambing yang menyusui. "
+    },
+    {
+      "id": "P07",
+      "nama": "Pink Eye",
+      "penanganan": "pertama dapat dilakukan dengan mencuci mata dengan air hangat menggunakan kain yang lembut dan bersih. Bersihkan mata secara berkala hingga penyakit mata sembuh. Berikan salep mata/tetes mata yang mengandung antibiotik secara berkala setelah mata dibersihkan. Pengobatan terus dilaksanakan hingga sembuh. Penanganan herba dapat menggunakan air sirih sebagai antiseptik hingga sembuh. "
+    },
+    {
+      "id": "P08",
+      "nama": "Pneumonia",
+      "penanganan": "Penanganan pneumoni dilakukan dengan pemberian antibiotika. Ternak terserang diisolasi di kandang terpisah untuk menghindari penularan penyakit. Untuk pencegahan, lingkungan kandang harus selalu dijaga agar bersih dan tidak lembab, serta ternak terlindung dari angin kencang. "
+    },
+    {
+      "id": "P09",
+      "nama": "Scabies",
+      "penanganan": "kambing dimandikan terlebih dahulu dan disikat menggunakan sabun antiseptik atau deterjen. Kemudian bulu tebal di area yang terserang dipotong pendek. Jika terdapat kambing yang terserang scabies sebaiknya segera diisolasi dalam kandang terpisah, karena tungau penyebab scabies sangat mudah menyebar pada ternak yang lain. "
+    },
+    {
+      "id": "P10",
+      "nama": "Cacingan",
+      "penanganan": "Untuk menangani kambing yang terkena cacingan, dapat diberikan obat cacing. Untuk pencegahan sebaiknya kebersihan kandang selalu dijaga dan dan dilakukan pemberian obat cacing secara berkala setiap 3 bulan sekali atau sekurang-kurangnya 6 bulan sekali."
+    },
+    {
+      "id": "P11",
+      "nama": "Penyakit parasit belatung (Miasis) ",
+      "penanganan": " Penanganan miasis dilakukan secara manual. Belatung diambil dan luka atau koreng dibersihkan dengan menggunakan rivanol. Untuk memastikan tidak ada lagi belatung dalam jaringan luka tersebut, dapat disiramkan air tembakau. Setelah dibersihkan kembali, luka dapat ditutup dengan kain perban yang diganti secara berkala setiap hari hingga luka sembuh, atau luka dapat dijahit untuk mempercepat proses penyembuhan. "
+    },
+    {
+      "id": "P12",
+      "nama": "Kembung (bloat)",
+      "penanganan": " Sebelum memberikan pakan hijauan, hendaknya dilayukan terlebih dahulu, terutama daun singkong. Tidak melepas kambing saat pagi hari, serta tidak memberi makan pada waktu menjelang magrib.Jika kambing mengalami kembung, untuk mengatasinya bisa dengan memberi obat anti kembung seperti Tympanol. "
+    },
+    {
+      "id": "P13",
+      "nama": "Keracunan",
+      "penanganan": "Penanganan keracunan dilakukan dengan memberikan bahan-bahan yang dapat menetralisir atau menyerap racun, seperti air kelapa muda dan norit."
+    },
+    {
+      "id": "P14",
+      "nama": "Penyakit kuku busuk",
+      "penanganan": " Penanganan penyakit kuku busuk dapat dilakukan dengan membersihkan dan memotong bagian kuku yang mengalami kebusukan. Berikan obat luka atau antiseptik, dan tutupi luka kuku dengan perban. Pergantian perban kotor dilakukan secara berkala hingga kuku sembuh. Jaga kebersihan dan kelembaban kandang, hindari adanya genangan air dalam kandang. "
+    },
+    {
+      "id": "P15",
+      "nama": "Sembelit",
+      "penanganan": "Konstipasi atau sembelit adalah kondisi kesulitan membuang kotoran. Untuk menangani konstipasi, berikan 1 sendok makan minyak sayur. gunakan minyak tanah, masukkan jari kelingking yang telah diolesi minyak tanah ke dalam anus kambing. Cari kotoran kambing yang masih menyangkut di dalam anus dan keluarkan kotoran tersebut. "
+    }
+  ]
+  

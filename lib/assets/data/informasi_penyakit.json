@@ -1,0 +1,161 @@
+[
+    {
+      "id": "P01",
+      "nama": "Penyakit Kuku dan Mulut (PMK)",
+      "penjelasan": [
+        "Penyakit Mulut dan Kuku (PMK) merupakan penyakit yang disebabkan virus family Picornaviridae yang memiliki daya tular tinggi,",
+        "terdapat pada air kencing, susu dan air liur.",
+        "Penyakit ini menyerang hewan berkuku genap terutama sapi, kerbau, kambing, dan babi."
+      ],
+      "gejala": ["Demam", "Nafsu makan turun", "air liur berlebihan", "Rongga mulut, lidah dan kaki melepuh serta terdapat benjolan berisi cairan."],
+      "penanganan": " Isolasi kambing. sanitasi kebersihan kandang, lokasi, peralatan, dan tempat pakan dan minum.  Pemberian antibiotik dan vitamin, bertujuan untuk meningkatkan kekebalan dan menjaga kesehatan ternak agar ternak lain tidak mudah terserang penyakit PMK. vaksinasi, dan pemusnahan bangkai kambing yang terjangkit."
+    },
+    {
+      "id": "P02",
+      "nama": "Penyakit Orf",
+      "penjelasan": [
+        "Orf merupakan penyakit zoonosis (menular pada manusia) yang disebabkan virus Parapox,",
+        "Penyakit ini biasanya menyerang kambing saat makan rumput yang berbulu dan debu dari konsentrat. Virus dapat bertahan hingga enam bulan."
+      ],
+      "gejala": ["Terdapat luka dan keropeng pada mulut dan kuku", "Hilang nafsu makan dan kurus."],
+      "penanganan": " Suntikan antibiotik. buat ramuan berbahan biji pinang, kapur sirih, dan kunyit dengan cara oleskan pada bagian yang terjangkit tanpa mengelupas keropeng."
+    },
+    {
+      "id": "P03",
+      "nama": "Anthrax",
+      "penjelasan": [
+        "Penyakit anthrax disebabkan oleh bakteri Bacillus anthracis, yang ditularkan melalui kontak secara langsung, makanan, minuman, atau pernafasan.",
+        "Saat bakteri kontak dengan udara, akan terjadi perubahan bentuk menjadi spora dan dapat bertahan di tanah bertahun-tahun.",
+        "Saat spora terhisap dan masuk ke dalam tubuh, maka akan berubah menjadi bentuk vegetatif dan mulai berkembang lagi. Penyebaran penyakit terjadi melalui spora yang terbawa melalui rumput, air minum, pakan maupun udara."
+      ],
+      "gejala": ["Demam", "Feses berdarah", "Frekuensi nafas cepat dan pendek", "Detak jantung cepat dan lemah", "Tidak nafsu makan, lemas", "Susu dan urin berwarna kemerahan(mengandung darah)","Bengkak pada lidah, anus, dan vulva", "Badan penuh bisul", "Kambing mengalami gangguan pencernaan."],
+      "penanganan": " Anthrax belum ditemukan obatnya. Pengobatan dini sebelum muncul gejala secara keseluruhan biasanya menggunakan Tetracyclin atau Penicillin dosis tinggi selama 5 hari. Vaksinasi ternak di daerah endemik direkomendasikan untuk dilakukan secara teratur."
+    },
+    {
+      "id": "P04",
+      "nama": "Radang Ambing (Masitis)",
+      "penjelasan": [
+        "Penyakit mastitis atau radang ambing umumnya ditemukan pada kambing perah karena penyakit ini menyerang ambing. ",
+        "Penyakit ini disebabkan oleh infeksi bakteri Staphylococcus aureus yang terjadi karena proses pemerahan yang kurang sempurna.",
+        "Mastitis dapat menyebabkan penurunan kualitas dan produksi susu."
+      ],
+      "gejala": ["Ambing berwarna kemerahan, bengkak.", "Kambing lesu, lemah, pucat."],
+      "penanganan": "Pemberian antibiotik intra mammary. menjaga sanitasi pemerah. perah susu hingga habis, injeksi spoit obat ke dalam puting hingga ke bagian atas ambing,  Perah kembali susu setelah 24 jam. Jika susu masih berwarna kemerahan, pemerahan dapat diulang 1-2 kali."
+    },
+    {
+      "id": "P05",
+      "nama": "Diare",
+      "penjelasan": [
+        "Diare atau mencret merupakan salah satu tanda klinis dari adanya gangguan dalam sistem pencernaan.",
+        "Beberapa faktor yang dapat menimbulkan mencret antara lain bakteri, makanan yang rusak atau perubahan pakan, cacingan, maupun kondisi dingin."
+      ],
+      "gejala": ["Kambing lesu, lemah, pucat.", "Kotoran lembek dan cair", "Kotoran berwarna hijau muda, hijau kekuningan, hijau kemerahan, hijau kehitaman.", "Daerah belakang kambing kotor."],
+      "penanganan": "Diare yang disebabkan pakan hijauan, maka pemberian daun kacang-kacangan dan daun muda dihentikan sementara.Penanganan diare secara herbal dilakukan dengan pemberian 1/3 gelas campuran daun jambu biji, garam dapur dan air kelapa, selama tiga hari berturut-turut."
+    },
+    {
+      "id": "P06",
+      "nama": "Enterotoksemia",
+      "penjelasan": [
+        "Enterotoksemia merupakan kondisi keracunan yang dihasilkan bakteri Clostridium perfringens.",
+        "Bakteri tersebut akan lebih produktif saat tingkat keasaman meningkat, salah satunya disebabkan oleh konsumsi biji-bijian berlebihan."
+      ],
+      "gejala": [" Gejala klinis enterotoksemia antara lain berkedut, demam tinggi hingga gigi gemeretak dan perutnya membengkak."],
+      "penanganan": "Penanganan kasus keracunan umumnya diberikan air kelapa untuk menetralisir racun, serta dapat dilakukan infus intravena. Untuk pencegahan, pemberian biji-bijian dalam pakan perlu dibatasi, terutama kambing yang menyusui."
+    },
+    {
+      "id": "P07",
+      "nama": "Pink Eye",
+      "penjelasan": [
+        "Penyakit Pink Eye atau mata merah adalah infeksi mata yang umum terjadi pada kambing dan domba.",
+        "Pink eye dapat disebabkan oleh berbagai faktor, baik bakteri, virus ataupun parasit mata.",
+        "Infeksi bisa terjadi akibat kontak langsung dengan ternak yang terinfeksi atau melalui faktor seperti lalat, debu, dan percikan air, dll.",
+        "Umumnya penyakit ini diawali dengan adanya iritasi pada mata."
+      ],
+      "gejala": [" kambing sering mengedipkan mata, kemerahan pada bola mata, mengeluarkan air, serta belekan."],
+      "penanganan": "Penanganan pertama dapat dilakukan dengan membersihkan mata kambing dengan air hangat menggunakan kain yang lembut dan bersih. Pisahkan ternak yang terinfeksi dari yang sehat, gunakan antibiotik secara berkala setelah mata dibersihkan. Oleskan salep mata, tempatkan ternak di area yang teduh untuk mengurangi iritasi mata."
+    },
+    {
+      "id": "P08",
+      "nama": "Pneumonia",
+      "penjelasan": [
+        "Pneumonia pada kambing adalah penyakit pernapasan yang bisa disebabkan oleh berbagai faktor, termasuk infeksi bakteri, virus, atau kondisi lingkungan yang buruk.",
+        "Merupakan penyakit infeksi yang menyerang paru-paru, sehingga kantung udara di dalam paru-paru mengalami peradangan dan pembengkakan."
+      ],
+      "gejala": [" Demam tinggi.", "kesulitan bernafas.", "nafsu makan hilang.","kambing sering batuk."],
+      "penanganan": "Karantina kambing yang terinfeksi untuk mencegah penyebaran. Berikan antibiotik secara berkala, perbaikan lingkungan seperti ventilasi yang baik dan sanitasi kandang. Lingkungan kandang harus selalu dijaga agar bersih dan tidak lembab, serta ternak terlindung dari angin kencang."
+    },
+    {
+      "id": "P09",
+      "nama": "Scabies",
+      "penjelasan": [
+        "Scabies pada kambing adalah penyakit kulit yang disebabkan oleh tungau.",
+        "Penyakit scabies sering menyerang area di sekitar daun telinga dan mulut, kemudian dapat menyebar ke seluruh tubuh.",
+        "Penyakit ini sangat menular dan bisa menyebabkan kambing mengalami gatal parah, luka kulit, serta penurunan kondisi tubuh."
+      ],
+      "gejala": ["Timbul bercak merah membentuk bisul pada kulit.", "Kambing sering menggaruk/menggosok tubuhnya ke benda keras.", "bulu rontok."],
+      "penanganan": "kambing dimandikan terlebih dahulu dan disikat menggunakan sabun antiseptik atau deterjen.Kemudian bulu tebal di area yang terserang dipotong pendek.Jika terdapat kambing yang terserang scabies sebaiknya segera diisolasi dalam kandang terpisah, karena tungau penyebab scabies sangat mudah menyebar pada ternak yang lain.Gunakan obat anti parasit seperti Ivomec yang beredar dipasaran, gunakan sesuai takaran dosis."
+    },
+    {
+      "id": "P10",
+      "nama": "Cacingan",
+      "penjelasan": [
+        "Cacingan pada kambing adalah penyakit yang disebabkan oleh infestasi parasit cacing di dalam tubuh, terutama di saluran pencernaan.",
+        "Cacing-cacing tersebut terutama terdapat pada pakan hijauan yang ikut termakan, kemudian hidup sebagai parasit di saluran pencernaan, melekat di selaput usus dan menghisap sari makanan, cairan tubuh dan darah, dan mengeluarkan racun."
+      ],
+      "gejala": ["nafsu makan menurun.", "kambing pucat.", "badan lemas.", "kurus dengan perut buncit."],
+      "penanganan": "Untuk menangani kambing yang terkena cacingan, dapat diberikan obat cacing.Untuk pencegahan sebaiknya kebersihan kandang selalu dijaga dan dan dilakukan pemberian obat cacing secara berkala setiap 3 bulan sekali atau sekurang-kurangnya 6 bulan sekali.Pakan berkualitas, hindari pakan yang tercemar tanah atau kotoran."
+    },
+    {
+      "id": "P11",
+      "nama": "Miasis (Belatungan)",
+      "penjelasan": [
+        "Miasis merupakan suatu kondisi kambing mengalami belatungan, akibat luka terbuka yang tidak terobati.",
+        "Larva ini berkembang di jaringan hidup maupun luka terbuka dan menyebabkan luka yang membusuk, berbau, serta bisa berakibat fatal jika tidak ditangani dengan baik."
+      ],
+      "gejala": ["memiliki luka terbuka.", "kambing dikrubungi lalat.", "luka mengandung telur, dan larva lalat."],
+      "penanganan": "Penanganan miasis dilakukan secara manual. Belatung diambil dan luka atau koreng dibersihkan dengan menggunakan rivanol. Untuk memastikan tidak ada lagi belatung dalam jaringan luka tersebut, dapat disiramkan air tembakau. Setelah dibersihkan kembali, luka dapat ditutup dengan kain perban yang diganti secara berkala setiap hari hingga luka sembuh, atau luka dapat dijahit untuk mempercepat proses penyembuhan."
+    },
+    {
+      "id": "P12",
+      "nama": "Kembung (bloat)",
+      "penjelasan": [
+        "Kembung atau bloat pada kambing adalah kondisi serius yang terjadi akibat penumpukan gas berlebih di dalam rumen.",
+        "perut kambing berisi banyak gas akibat dari proses fermentasi yang berjalan cepat dan tidak dapat dikeluarkan dalam bentuk kentut.",
+        "Tingginya akumulasi gas dalam perut menyebabkan organ lain dalam tubuh tertekan dan menimbulkan rasa sakit, Jika tidak ditangani dengan cepat, bloat bisa berakibat fatal dalam hitungan jam."
+      ],
+      "gejala": ["perut membesar dan bengkak.", "kambing mendengus.", "punggung membungkuk.", "Kambing tampak gelisah dan sering menendang perutnya."],
+      "penanganan": "Sebelum memberikan pakan hijauan, hendaknya dilayukan terlebih dahulu, terutama daun singkong.Tidak melepas kambing saat pagi hari, serta tidak memberi makan pada waktu menjelang magrib. Pijat perut untuk membantu keluarnya gas, memberi obat anti kembung seperti Tympanol, berikan minyak nabati (seperti minyak kelapa) untuk melancarkan pencernaan."
+    },
+    {
+      "id": "P13",
+      "nama": "Keracunan",
+      "penjelasan": [
+        "Keracunan pada ternak terjadi akibat konsumsi pakan yang mengandung bahan yang bersifat racun dengan jumlah yang melebihi ambang batas yang dapat ditolerir oleh tubuh ternak.",
+        "Beberapa tanaman yang sering menyebabkan keracunan antara lain daun singkong segar, kacang tanah, daun jarak, dan lamtoro",
+        "pakan yang terkontaminasi, atau paparan zat kimia seperti pestisida dan timbal juga berpengaruh."
+      ],
+      "gejala": ["kejang-kejang.", "Frekuensi pernapasan meningkat dan kesulitan bernafas.", "mulut berbusa.", "feses bercampur darah."],
+      "penanganan":
+        "Penanganan keracunan dilakukan dengan memberikan bahan-bahan yang dapat menetralisir atau menyerap racun, seperti air kelapa muda dan norit. Beri arang aktif atau larutan garam untuk membantu menetralisir racun.Bersihkan sistem pencernaan dengan minyak nabati seperti minyak kelapa atau bisa dicekoki dengan santan. Karantina kambing yang terinfeksi untuk mencegah penyebaran."
+    },
+    {
+      "id": "P14",
+      "nama": "Penyakit kuku busuk",
+      "penjelasan": [
+        "Penyakit kuku busuk pada kambing, atau foot rot, adalah infeksi yang menyerang kuku dan menyebabkan pembusukan jaringan.",
+        "Penyakit kuku busuk non infeksius disebabkan oleh karena kambing sering menginjak lantai kandang yang kotor dan berair. Kondisi kandang yang basah dan kotor dapat memicu pembusukan pada kuku kambing."
+      ],
+      "gejala": ["peradangan pada celah kuku.", "kulit sekitar kuku berwarna merah.", "kulit kuku mengelupas, mengeluarkan nanah.", "pincang."],
+      "penanganan": "Penanganan penyakit kuku busuk dapat dilakukan dengan membersihkan dan memotong bagian kuku yang mengalami kebusukan. Berikan obat luka atau antiseptik, dan tutupi luka kuku dengan perban. Pergantian perban kotor dilakukan secara berkala hingga kuku sembuh. Jaga kebersihan dan kelembaban kandang, hindari adanya genangan air dalam kandang."
+    },
+    {
+      "id": "P15",
+      "nama": "Sembelit",
+      "penjelasan": [
+        "Sembelit pada kambing adalah gangguan pencernaan di mana feses menjadi keras dan sulit dikeluarkan. Jika tidak ditangani, kondisi ini bisa menyebabkan ketidaknyamanan dan bahkan komplikasi serius."
+      ],
+      "gejala": ["kambing susah bahkan tidak dapat mengeluarkan feses.", "perut keram, membesar dan terasa keras saat disentuh.", "kambing sering berguling.", "Kambing tampak gelisah, sering menggeliat atau mencoba buang air tanpa hasil."],
+      "penanganan": "Konstipasi atau sembelit adalah kondisi kesulitan membuang kotoran. Untuk menangani konstipasi, berikan 1 sendok makan minyak sayur. Gunakan minyak tanah, masukkan jari kelingking yang telah diolesi minyak tanah ke dalam anus kambing. Cari kotoran kambing yang masih menyangkut di dalam anus dan keluarkan kotoran tersebut. Untuk menghindari terjadinya sembelit, Tambahkan serat dalam pakan, seperti hijauan segar dan dedak."
+    }
+]
+  
