@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "172591716619-3fcf4rma4t5nehcdjm4c0knttbo457qg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasi_diagnosa_penyakitkambing",
+            "certificate_hash": "a59145a9b0eaa6d6454cf7371511f0b93958a106"
+          }
+        },
+        {
           "client_id": "172591716619-jdci14qjv9havplg6sfk9sjqds5hr06d.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

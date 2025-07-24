@@ -2,15 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-//import '../utils/forward_chaining.dart';
 
 class HasilDiagnosaPage extends StatefulWidget {
   final String hasilDiagnosa;
+  final int jumlahCocok;
+  final int totalGejala;
 
-  const HasilDiagnosaPage({super.key, required this.hasilDiagnosa});
+  const HasilDiagnosaPage({
+    super.key,
+    required this.hasilDiagnosa,
+    required this.jumlahCocok,
+    required this.totalGejala,
+  });
 
   @override
-  _HasilDiagnosaPageState createState() => _HasilDiagnosaPageState();
+  State<HasilDiagnosaPage> createState() => _HasilDiagnosaPageState();
 }
 
 class _HasilDiagnosaPageState extends State<HasilDiagnosaPage> {
@@ -34,6 +40,11 @@ class _HasilDiagnosaPageState extends State<HasilDiagnosaPage> {
       'penanganan': widget.hasilDiagnosa.split('\n').length > 1
           ? widget.hasilDiagnosa.split('\n').sublist(1).join('\n')
           : '',
+      'jumlahCocok': widget.jumlahCocok,
+      'totalGejala': widget.totalGejala,
+      'persentase': widget.totalGejala > 0
+          ? (widget.jumlahCocok / widget.totalGejala) * 100
+          : 0,
     };
 
     await FirebaseFirestore.instance
@@ -82,6 +93,11 @@ class _HasilDiagnosaPageState extends State<HasilDiagnosaPage> {
 
   @override
   Widget build(BuildContext context) {
+    double persentase = 0;
+    if (widget.totalGejala > 0) {
+      persentase = (widget.jumlahCocok / widget.totalGejala) * 100;
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Hasil Diagnosa'),
@@ -110,6 +126,11 @@ class _HasilDiagnosaPageState extends State<HasilDiagnosaPage> {
                   Text(
                     widget.hasilDiagnosa,
                     style: const TextStyle(fontSize: 16),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    "Kecocokan gejala: ${widget.jumlahCocok} dari ${widget.totalGejala} gejala, hasil penyakit(${persentase.toStringAsFixed(0)}%)",
+                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black87),
                   ),
                 ],
               ),

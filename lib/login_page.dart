@@ -4,9 +4,10 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'dart:io';
 //import 'migrasi_firestore.dart';
 
+//Komponen atas
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
-
+//Komponen bawah
   Future<void> _signInWithGoogle(BuildContext context) async {
     try {
       final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-//import 'package:firebase_auth/firebase_auth.dart';
-//import 'package:flutter/services.dart';
 import '../utils/forward_chaining.dart';
 import 'hasil_diagnosa_page.dart';
 
@@ -63,50 +61,52 @@ class _PemilihanGejalaPageState extends State<PemilihanGejalaPage> {
   }
 
   void _diagnosa() async {
-  if (_selectedGejala.length < 2) {
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
-        title: Text("Gejala tidak valid!"),
-        content: Text("Tidak dapat menemukan penyakit. Silahkan pilih minimal dua gejala."),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: Text("OK"),
-          ),
-        ],
-      ),
-    );
-    return;
-  }
-
-  final hasil = await forwardChaining(_selectedGejala.toList());
-
-  if (hasil != null) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => HasilDiagnosaPage(
-          hasilDiagnosa: "${hasil.nama}\n\nPenanganan: ${hasil.penanganan}",
+    if (_selectedGejala.length < 2) {
+      showDialog(
+        context: context,
+        builder: (_) => AlertDialog(
+          title: Text("Gejala tidak valid!"),
+          content: Text("Tidak dapat menemukan penyakit. Silahkan pilih minimal dua gejala."),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text("OK"),
+            ),
+          ],
         ),
-      ),
-    );
-  } else {
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
-        title: Text("Tidak ditemukan"),
-        content: Text("Gejala tidak cocok dengan aturan manapun."),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: Text("OK"),
+      );
+      return;
+    }
+
+    final hasil = await forwardChaining(_selectedGejala.toList());
+
+    if (hasil != null) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => HasilDiagnosaPage(
+            hasilDiagnosa: "${hasil.penyakit.nama}\n\nPenanganan: ${hasil.penyakit.penanganan}",
+            jumlahCocok: hasil.jumlahCocok,
+            totalGejala: hasil.totalGejala,
           ),
-        ],
-      ),
-    );
+        ),
+      );
+    } else {
+      showDialog(
+        context: context,
+        builder: (_) => AlertDialog(
+          title: Text("Tidak ditemukan"),
+          content: Text("Gejala tidak cocok dengan aturan manapun."),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text("OK"),
+            ),
+          ],
+        ),
+      );
+    }
   }
-}
 
   @override
   Widget build(BuildContext context) {

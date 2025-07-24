@@ -30,7 +30,19 @@ class Rule {
   }
 }
 
-Future<Penyakit?> forwardChaining(List<String> selectedGejala) async {
+class DiagnosaHasil {
+  final Penyakit penyakit;
+  final int jumlahCocok;
+  final int totalGejala;
+
+  DiagnosaHasil({
+    required this.penyakit,
+    required this.jumlahCocok,
+    required this.totalGejala,
+  });
+}
+
+Future<DiagnosaHasil?> forwardChaining(List<String> selectedGejala) async {
   final firestore = FirebaseFirestore.instance;
 
   // Ambil data rules
@@ -45,7 +57,10 @@ Future<Penyakit?> forwardChaining(List<String> selectedGejala) async {
       .map((doc) => Penyakit.fromFirestore(doc.data()))
       .toList();
 
-  Map<String, double> hasilPersentase = {};
+  String? penyakitTerbaikId;
+  double persenTertinggi = 0.0;
+  int jumlahCocokTerbaik = 0;
+  int totalGejalaTerbaik = 0;
 
   for (var rule in rules) {
     final jumlahCocok = rule.kondisi
@@ -55,15 +70,25 @@ Future<Penyakit?> forwardChaining(List<String> selectedGejala) async {
 
     if (jumlahCocok > 0) {
       double persen = jumlahCocok / totalKondisi;
-      hasilPersentase[rule.hasil] = persen;
+      if (persen > persenTertinggi) {
+        persenTertinggi = persen;
+        penyakitTerbaikId = rule.hasil;
+        jumlahCocokTerbaik = jumlahCocok;
+        totalGejalaTerbaik = totalKondisi;
+      }
     }
   }
 
-  if (hasilPersentase.isEmpty) return null;
+  if (penyakitTerbaikId == null) return null;
 
-  String penyakitTerbaikId = hasilPersentase.entries
-      .reduce((a, b) => a.value >= b.value ? a : b)
-      .key;
+  final penyakit = penyakitList.firstWhere(
+    (p) => p.id == penyakitTerbaikId,
+    orElse: () => Penyakit(id: '-', nama: 'Tidak Diketahui', penanganan: '-'),
+  );
 
-  return penyakitList.firstWhere((p) => p.id == penyakitTerbaikId, orElse: () => Penyakit(id: '-', nama: 'Tidak Diketahui', penanganan: '-'));
+  return DiagnosaHasil(
+    penyakit: penyakit,
+    jumlahCocok: jumlahCocokTerbaik,
+    totalGejala: totalGejalaTerbaik,
+  );
 }

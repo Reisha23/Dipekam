@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+//Komponen atas
 class RiwayatPage extends StatefulWidget {
   @override
   _RiwayatPageState createState() => _RiwayatPageState();
 }
-
+//Komponen tengah
 class _RiwayatPageState extends State<RiwayatPage> {
   final user = FirebaseAuth.instance.currentUser;
   late CollectionReference _riwayatRef;
-
+//Komponen bawah
   @override
   void initState() {
     super.initState();
