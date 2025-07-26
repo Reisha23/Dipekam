@@ -17,7 +17,7 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     ndkVersion = "29.0.13113456"
-    namespace = "com.example.aplikasi_diagnosa_penyakitkambing"
+    namespace = "com.dipekam.aplikasi_diagnosa_penyakitkambing"
     compileSdk = flutter.compileSdkVersion
 
     compileOptions {
@@ -31,7 +31,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.aplikasi_diagnosa_penyakitkambing"
+        applicationId = "com.dipekam.aplikasi_diagnosa_penyakitkambing"
         minSdk = 23
         targetSdk = 35
         versionCode = flutter.versionCode
